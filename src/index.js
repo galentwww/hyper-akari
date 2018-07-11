@@ -16,7 +16,7 @@ exports.onWindow = win => browserWindow = win
 exports.decorateConfig = config => {
   const options = Object.assign({}, {
     illust: true,
-    opacity: 0.3,
+    opacity: 0.6,
     vibrancy: 'dark',
     vibrancyOpacity: 0.7,
   }, config.hyperAkari)
